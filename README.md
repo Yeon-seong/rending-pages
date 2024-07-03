@@ -19,7 +19,7 @@ ESTsoft 위니브 - 프론트엔드 부트캠프 오르미 1기 개인 프로젝
 
 ## 🌐 프로젝트 배포 주소
 <!-- [표시할 내용] (링크) -->
-> [😺랜딩페이지 바로가기](https://yeon-seong.github.io/rending-pages/index.html)
+> [😺랜딩페이지 바로가기](https://yeon-seong.github.io/rending-pages/html/index.html)
 <br />
 
 
