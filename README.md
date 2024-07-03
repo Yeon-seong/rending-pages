@@ -1,7 +1,5 @@
-# rending-pages
+# 😺 고양이를 테마로 한 랜딩페이지
 ESTsoft 위니브 - 프론트엔드 부트캠프 오르미 1기 개인 프로젝트 - 랜딩페이지 구현
-
-# ⏰ 1만 시간의 법칙
 **``**
 <br />
 
@@ -21,7 +19,7 @@ ESTsoft 위니브 - 프론트엔드 부트캠프 오르미 1기 개인 프로젝
 
 ## 🌐 프로젝트 배포 주소
 <!-- [표시할 내용] (링크) -->
-> [⌛랜딩페이지 바로가기](https://yeon-seong.github.io/rending-pages/index.html)
+> [😺랜딩페이지 바로가기](https://yeon-seong.github.io/rending-pages/index.html)
 <br />
 
 
@@ -55,7 +53,7 @@ ESTsoft 위니브 - 프론트엔드 부트캠프 오르미 1기 개인 프로젝
 
 
 ### 디자인 출처
-> [⌛랜딩페이지 Figma](https://www.figma.com/design/9VhAObwi2EXeLe4Ugkcb2e/EST_%EC%98%A4%EB%A5%B4%EB%AF%B8(FE)?node-id=49-1791&t=8dbdZLd3CjaeUlyO-0)
+> [😺랜딩페이지 Figma](https://www.figma.com/design/9VhAObwi2EXeLe4Ugkcb2e/EST_%EC%98%A4%EB%A5%B4%EB%AF%B8(FE)?node-id=49-1791&t=8dbdZLd3CjaeUlyO-0)
 > * ESsoft 부트캠프 과정 중 주식회사 WeNiv의 디자인을 제공받아 제작하였습니다.
 > * ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
 > * ※ 수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
