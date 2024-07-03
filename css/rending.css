@@ -1,15 +1,14 @@
 /* ==================== 페이지 전체 ==================== */
 
-/* 상하 마진 0, 좌우 마진 320px을 주는 컨테이너 */
-.container-margin {
-  margin: 0 320px;
+/* 사용자 지정 색상 */
+:root {
+  --main-intro-bg-color: #F2E9D8;
+  --orange-text-color: #D97652;
+  --gray-text--color: #767676;
+  --subscribe-box-color: #263140;
 }
 
 /* ==================== < Header > ==================== */
-/* header {} */
+/* ==================== < Main-Section > ==================== */
 /* ==================== < Section > ==================== */
-/* main > .container-margin > section {
-  background-color: pink;
-} */
 /* ==================== < Footer > ==================== */
-/* footer {} */
