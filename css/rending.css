@@ -9,11 +9,22 @@
   --main-intro-bg-color: #F2E9D8;
   --orange-text-color: #D97652;
   --gray-text--color: #767676;
-  --subscribe-box-color: #263140;
+  --darkblue-box-color: #263140;
 }
 
 body, button {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+header, .main-intro, .downside-cat-img {
+  background-color: var(--main-intro-bg-color);
+}
+
+button {
+  background-color: var(--orange-text-color);
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 40px;
 }
 /* ==================== < Header > ==================== */
 /* ==================== < Main-Section > ==================== */
