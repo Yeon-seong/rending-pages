@@ -25,6 +25,8 @@ button {
   color: #FFF;
   font-size: 16px;
   border-radius: 40px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 /* ==================== < Header > ==================== */
 /* ==================== < Main-Section > ==================== */
