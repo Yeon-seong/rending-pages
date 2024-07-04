@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
     <title>HODU</title>
   </head>
   <body>
     <header>
       <div class="container-box">
         <h1 class="top-logo">
-          <a href="#">
-            <img src="../icon/Logo-fin.svg" alt="HODU LOGO" />
-          </a>
+          <img src="../img/Logo-fin.svg" alt="HODU LOGO" />
         </h1>
   
         <nav>
@@ -103,6 +102,27 @@
     </main>
 
 
+  <!-- <div>
+    <button id="btn-modal">모달창 열려랏!</button>
+  </div>
+
+
+    <div id="modal" class="modal-overlay">
+      <div class="modal-window">
+        <div class="title">
+            <h2>제목</h2>
+        </div>
+        <div class="close-area">X</div>
+        <div class="content">
+            <p>안녕하세요</p>
+            <p>이건 모달창이에요</p>
+        </div>
+      </div>
+      <p>내용내용내용</p>
+      <button class="btn2">열어!</button>
+    </div> -->
+
+
     <section class="subscribe-bar">
       <div class="container-box">
         <div class="subscribe-blog-post-box">
@@ -114,9 +134,11 @@
             </p>
           </div>
           <div class="subscribe-email-input-wrap">
-            <img src="../icon/mail.svg" alt="email">
-            <input type="email" placeholder="Enter your e-mail address" />
-            <button type="submit" class="orange-btn">subscribe</button>
+            <img src="../img/mail.svg" alt="email">
+            <form action="subscribe_form">
+              <input id="user-email" type="email" name="email" placeholder="Enter your e-mail address" required />
+            </form>
+            <button type="button" class="orange-btn">subscribe</button>
           </div>
         </div>
       </div>
@@ -130,7 +152,7 @@
 
     <button type="button" id="top-btn">
       <a href="#">
-        <img src="../icon/top-btn.svg" alt="화면 상단으로 올라가는 버튼">
+        <img src="../img/top-btn.svg" alt="화면 상단으로 올라가는 버튼">
       </a>
     </button>
 
@@ -139,25 +161,26 @@
       <div class="container-box">
         <div class="down-logo">
           <a href="https://yeon-seong.github.io/rending-pages/html/index.html">
-            <img class="down-logo" src="../icon/logo.svg" alt="HODU LOGO" />
+            <img class="down-logo" src="../img/logo.svg" alt="HODU LOGO" />
           </a>
         </div>
         <div class="social-logo">
           <div class="social-logo-margin">
-            <img src="../icon/blog.svg" alt="BING" />
+            <img src="../img/blog.svg" alt="BING" />
           </div>
           <div class="social-logo-margin">
-            <img src="../icon/instagram.svg" alt="Instagram" />
+            <img src="../img/instagram.svg" alt="Instagram" />
           </div>
           <div class="social-logo-margin">
-            <img src="../icon/facebook.svg" alt="Facebook" />
+            <img src="../img/facebook.svg" alt="Facebook" />
           </div>
           <div class="social-logo-last">
-            <img src="../icon/youtube.svg" alt="YouTube" />
+            <img src="../img/youtube.svg" alt="YouTube" />
           </div>
         </div>
       </div>
     </footer>
+
 
 
     <script src="../js/rending.js"></script>

@@ -1,6 +1,13 @@
 /* 웹폰트 불러오기 */
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* 사용자 지정 색상 */
 :root {
@@ -12,13 +19,13 @@
 }
 
 h1, h2, p, a, ul, li, button {
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   word-break: keep-all;
   overflow-wrap: break-word;
 }
 
 body {
   position: relative;
+  font-family: 'Spoqa Han Sans Neo', 'SpoqaHanSansNeo-Regular' 'sans-serif';
 }
 
 header, .main-intro, .downside-cat-img {
@@ -41,7 +48,7 @@ header, .main-intro, .downside-cat-img {
   color: var(--orange-text-color);
 }
 
-.container-box {
+.container-box{
   margin-left: 320px;
   margin-right: 320px;
   max-width: 1280px;
@@ -86,7 +93,7 @@ header .orange-btn {
 
 
 
-main .main-intro .container-box {
+main .main-intro .container-box{
   display: flex;
   justify-content: space-between;
 }
@@ -198,7 +205,6 @@ main .main-content .main-content-three > .orange-btn {
 }
 
 
-/* subscribe-bar */
 .subscribe-bar {
   min-width: 1280px;
   max-width: 1280px;
@@ -299,7 +305,7 @@ footer > .container-box > .social-logo > .social-logo-margin {
 #top-btn {
   width: 50px;
   height: 50px;
-  background: url(../icon/scroll-top-btn.png) no-repeat center;
+  background: url(../img/scroll-top-btn.png) no-repeat center;
   padding: 0;
   background-color: #FFF;
   border: 1px solid #c4c4c4;
@@ -310,6 +316,6 @@ footer > .container-box > .social-logo > .social-logo-margin {
   z-index: 1;
 }
 #top-btn:hover {
-  background: url(../icon/scroll-arrow-up.svg) no-repeat center;
+  background: url(../img/scroll-arrow-up.svg) no-repeat center;
   background-color: #FFF;
 }
