@@ -1,5 +1,3 @@
-/* ==================== 페이지 전체 ==================== */
-
 /* 웹폰트 불러오기 */
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
@@ -7,6 +5,7 @@
 /* 사용자 지정 색상 */
 :root {
   --main-intro-bg-color: #F2E9D8;
+  --orange-logo-bg-color: #F29D52;
   --orange-text-color: #D97652;
   --gray-text--color: #767676;
   --darkblue-box-color: #263140;
@@ -18,33 +17,275 @@ h1, h2, p, a, ul, li, button {
   overflow-wrap: break-word;
 }
 
+body {
+  position: relative;
+}
+
 header, .main-intro, .downside-cat-img {
   background-color: var(--main-intro-bg-color);
 }
 
-button {
+.orange-btn {
   background-color: var(--orange-text-color);
   color: #FFF;
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
-}
-/* ==================== < Header > ==================== */
-.main-intro > .main-intro-text > h2 {
-  font-family: 'Spoqa Han Sans Neo';
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.25;
-}
-.main-intro > .main-intro-text > p {
-  font-family: 'Spoqa Han Sans Neo';
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.25;
-}
-.download-btn {
   padding: 15px 30px;
 }
-/* ==================== < Main-Section > ==================== */
-/* ==================== < Section > ==================== */
+
+.main-img-shadow {
+  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.orange-highlight-text {
+  color: var(--orange-text-color);
+}
+
+.container-box {
+  margin-left: 320px;
+  margin-right: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+header {
+  width: 100%;
+  background-color: var(--main-intro-bg-color);
+  position: sticky;
+  top: 0; 
+  z-index: 1;
+}
+header > .container-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+header .top-logo a {
+  display: block;
+}
+header .top-logo img {
+  width: 130px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header .top-nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 214px;
+}
+header .orange-btn {
+  margin-left: 40px;
+}
+
+
+
+main .main-intro .container-box {
+  display: flex;
+  justify-content: space-between;
+}
+main .main-intro-parag-wrap {
+  margin-top: 200px;
+}
+main .main-intro-parag-wrap > .main-intro-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+main .main-intro-parag-wrap > .main-intro-text {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+main .main-intro-parag-wrap > .orange-btn {
+  margin-top: 40px;
+}
+main .main-intro-img {
+  width: 415px;
+  height: 890px;
+}
+main .main-intro-img > img {
+  display: block;
+}
+
+
+
+main .main-content > .container-box > .main-content-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+main .main-content > .container-box > .main-content-one > .main-picture-one-wrap > img {
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
+  background: url(../img/img_4.jpg) no-repeat center;
+  background-size: 100%;
+  object-fit: cover;
+}
+main .main-content > .container-box > .main-content-one .main-content-wrap {
+  margin-left: 110px;
+}
+main .main-content > .container-box > .main-content-one .main-content-wrap > .main-content-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+main .main-content > .container-box > .main-content-one .main-content-wrap > .main-content-text {
+  margin-top: 33px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+
+main .main-content .main-content-two {
+  margin-top: 120px;
+}
+main .main-content .main-content-two > .main-content-title-two {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #D97652;
+}
+main .main-content .main-content-two > p {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+main .main-content .main-content-two .main-img-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 88px;
+}
+main .main-content .main-content-two .main-img-wrap > img {
+  width: 378px;
+  height: 378px;
+  gap: 72px;
+  min-width: 378px;
+  min-height: 378px;
+  border-radius: 30px;
+  background-size: 100%;
+}
+
+
+main .main-content .main-content-three {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 196px;
+}
+main .main-content .main-content-three > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+main .main-content .main-content-three > .orange-btn {
+  margin-left: 52px;
+}
+
+/* subscribe-bar */
+.subscribe-bar {
+  padding: 50px 58px;
+  border-radius: 30px;
+  background-color: var(--darkblue-box-color);
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.subscribe-bar > .container-box > .subscribe-blog-post-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe-barr > .container-box > .subscribe-blog-post-box .post-text {
+  margin-right: 58px;
+}
+.subscribe-bar h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.subscribe-bar p {
+  margin-top: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F2E9D8;
+}
+.subscribe-bar .subscribe-email-input-wrap {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 60px;
+  padding-right: 5px;
+}
+.subscribe-bar .subscribe-email-input-wrap > img {
+  padding: 0 28px;
+  width: 24px;
+  height: 24px;
+}
+.subscribe-bar .subscribe-email-input-wrap > input {
+  width: 200px;
+  height: 100%;
+}
+
+/* downside */
+.downside-cat-img > img {
+  width: 100%;
+  background: url(../img/img_1.jpg) no-repeat center;
+}
+
 /* ==================== < Footer > ==================== */
+footer {
+  width: 100%;
+  height: 160px;
+}
+footer > .container-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0;
+  background-color: #fff;
+}
+footer > .container-box > .down-hodu-logo {
+  width: 226px;
+  height: 70px;
+}
+footer > .container-box > .down-hodu-logo > a {
+  display: block;
+}
+
+footer > .container-box > .social-logo {
+  display: flex;
+  align-items: center;
+}
+footer > .container-box > .social-logo > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  background-color: var(--orange-logo-bg-color);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+footer > .container-box > .social-logo > .social-logo-margin {
+  margin-right: 20px;
+}
