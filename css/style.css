@@ -28,6 +28,16 @@ body {
   font-family: 'Spoqa Han Sans Neo', 'SpoqaHanSansNeo-Regular' 'sans-serif';
 }
 
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 header, .main-intro, .downside-cat-img {
   background-color: var(--main-intro-bg-color);
 }
