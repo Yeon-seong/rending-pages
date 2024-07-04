@@ -220,7 +220,7 @@ main .main-content .main-content-three > .orange-btn {
   padding: 50px 58px;
   border-radius: 30px;
   background-color: var(--darkblue-box-color);
-  transform: translateY(-50%);
+  transform: translateY(50%);
   box-sizing: border-box;
   margin: 0 auto;
 }
