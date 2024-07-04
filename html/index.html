@@ -4,157 +4,159 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS 불러오기 -->
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/rending.css">
-    <title>HODU | 이다빈</title>
+    <title>HODU</title>
   </head>
   <body>
-    <!-- ==================== < Header > ==================== -->
     <header>
       <div class="container-box">
-        <!-- 헤더 메인 로고 -->
-        <h1>
-          <a href="https://yeon-seong.github.io/rending-pages/html/index.html">
-            <img class="top-hodu-logo" src="../icon/logo.png" alt="HODU LOGO" />
+        <h1 class="top-logo">
+          <a href="#">
+            <img src="../icon/Logo-fin.svg" alt="HODU LOGO" />
           </a>
         </h1>
-        <!-- --- ------- < nav > ---------- -->
+  
         <nav>
-          <!-- 상단 메뉴 바 리스트 -->
           <ul class="top-nav-list">
-            <li><a href="#" target="_blank">Home</a></li>
-            <li><a href="#" target="_blank">About</a></li>
-            <li><a href="#" target="_blank">Support</a></li>
-            <!-- 다운로드 버튼 -->
-            <li>
-              <button type="button" class="download-btn">Download</button>
-            </li>
+            <li class="top-nav-list-home"><a href="#" target="_blank">Home</a></li>
+            <li class="top-nav-list-about"><a href="#" target="_blank">About</a></li>
+            <li class="top-nav-list-home"><a href="#" target="_blank">Support</a></li>
           </ul>
+          <button type="button" class="orange-btn">Download</button>
         </nav>
       </div>
     </header>
 
-    <!-- ==================== < Main-Section > ==================== -->
+
     <main>
-      <!-- ---------- < main-section 1> ---------- -->
-      <section class="main-intro container-box">
-        <!-- 메인 소개글 -->
-        <div class="main-intro-text">
-          <!-- 소개글 제목 -->
-          <h2>
-            Lorem Ipsum is simply<br />
-            dummy text of the printing and
-          </h2>
-          <!-- 소개글 문단 -->
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and</br />
-            typesetting industry.</br />
-            Lorem Ipsum has been the industry's standard dummy text</br />
-            ever since the 1500s, when an unknown
-          </p>
-          <!-- 다운로드 버튼 -->
-          <button type="button" class="download-btn">Download</button>
-        </div>
-        <!-- 메인 소개 이미지 -->
-        <div class="main-intro-cat-img">
-          <img src="../img/cat/box-cat.png" alt="상자를 뒤집어 써서 머리가 안보이는 고양이 호두" />
+      <section class="main-intro">
+        <div class="container-box">
+          <div class="main-intro-parag-wrap">
+            <h2 class="main-intro-title">
+              Lorem Ipsum is simply<br />
+              dummy text of the printing and
+            </h2>
+            <p class="main-intro-text">
+              Lorem Ipsum is simply dummy text of the printing and</br />
+              typesetting industry.</br />
+              Lorem Ipsum has been the industry's standard dummy text</br />
+              ever since the 1500s, when an unknown
+            </p>
+            <button type="button" class="orange-btn">Download</button>
+          </div>
+  
+          <div class="main-intro-img">
+            <img src="../img/main-box-cat.png" alt="상자를 뒤집어 써서 머리가 안보이는 고양이 호두" />
+          </div>
         </div>
       </section>
 
-      <!-- ---------- < main-section 2> ---------- -->
-      <section class="main-content container-box">
-        <!-- 메인 단일 콘텐츠 이미지 -->
-        <div class="main-content-img-wrap">
-          <img src="../img/cat/img_4.jpg" alt="침대 위에 누워있는 고양이 호두" />
-        </div>
-        <!-- 메인 콘텐츠 텍스트 문단1 -->
-        <div class="main-content-one-wrap">
-          <h2>
-            Lorem Ipsum is simply<br />
-            dummy text of the printing<br />
-            and dummy text
-          </h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          </p>
-        </div>
-        <!-- 메인 콘텐츠 텍스트 문단2 -->
-        <div class="main-content-two-wrap">
-          <h2>dummy text of the printing and dummy</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesettin g industry.<br />
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-          </p>
-        </div>
-        <!-- 메인 복수 콘텐츠 이미지 -->
-          <div class="main-content-img-wrap">
-            <img src="../img/cat/img_1.jpg" alt="캣타워에 올라간 고양이 호두" />
-            <img src="../img/cat/img_2.jpg" alt="벽을 바라보는 고양이 호두의 뒷모습" />
-            <img src="../img/cat/img_3.jpg" alt="나를 응시하는 고양이 호두" />
+
+      <section class="main-content">
+        <div class="container-box">
+          <div class="main-content-one">
+            <div class="main-picture-one-wrap main-img-shadow">
+              <img src="../img/img_4.jpg" alt="침대에 누운 고양이 호두" />
+            </div>
+            <div class="main-content-wrap">
+              <h2 class="main-content-title">
+                Lorem Ipsum is simply<br />
+                dummy text of the printing<br />
+                and dummy text
+              </h2>
+              <p class="main-content-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- 메인 콘텐츠 텍스트 문단3 -->
-        <div class="main-content-three-wrap">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br />
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</br />
-            Ipsum is simply dummy text of the printing and typesetting industry. 
-          </p>
-          <!-- 더 보기 버튼 -->
-          <button type="button" class="learn-more-btn">Learn More</button>
+
+
+          <div class="main-content-two">
+            <div class="main-content-parag-wrap"></div>
+            <h2 class="main-content-title-two">
+              dummy text of the printing and dummy
+            </h2>
+            <p>
+              Lorem Ipsum is simply
+              <span class="orange-highlight-text">dummy text</span> of the printing and typesettin g industry.<br />
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            </p>
+
+            <div class="main-img-wrap main-img-shadow">
+              <img src="../img/img_1.jpg" alt="캣타워에 올라간 고양이 호두">
+              <img src="../img/img_2.jpg" alt="벽을 바라보는 고양이 호두">
+              <img src="../img/img_3.jpg" alt="나를 정면으로 응시하는 고양이 호두">
+            </div>
+          </div>
+
+          <div class="main-content-three">
+            <p class="main-con">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br />
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</br />
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+            </p>
+            <button type="button" class="orange-btn">Learn More</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <!-- ==================== < Section > ==================== -->
-    <!-- ---------- < section 1 >---------- -->
-    <section class="subscribe-bar main-intro container-box">
-      <!-- 블로그 포스트 구독 박스 -->
-      <div class="subscribe-blog-post-box">
-        <div class="post-text">
-          <h2>Subscribe to our Blog post</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />
-            Lorem Ipsum has been the industry's standard dummy text 
-          </p>
-        </div>
-        <!-- 구독 이메일 입력란 -->
-        <div class="subscribe-email-input-wrap">
-          <img src="../icon/email.png" alt="이메일 아이콘">
-          <input type="email" placeholder="Enter your e-mail address" />
-          <button type="submit">subscribe</button>
+
+    <section class="subscribe-bar">
+      <div class="container-box">
+        <div class="subscribe-blog-post-box">
+          <div class="post-text">
+            <h2>Subscribe to our Blog post</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br />
+              Lorem Ipsum has been the industry's standard dummy text 
+            </p>
+          </div>
+          <div class="subscribe-email-input-wrap">
+            <img src="../icon/mail.svg" alt="email">
+            <input type="email" placeholder="Enter your e-mail address" />
+            <button type="submit" class="orange-btn">subscribe</button>
+          </div>
         </div>
       </div>
     </section>
+    
 
-    <!-- ---------- < section 2 >---------- --> 
     <section class="downside-cat-img">
-      <img src="../img/cat/img_5.jpg" alt="아래에서 위로 확대해서 찍은 고양이 호두 얼굴" />
+      <img src="../img/img_5.jpg" alt="고양이 호두 확대" />
     </section>
 
 
-    <!-- ==================== < Footer > ==================== -->
     <footer>
       <div class="container-box">
-        <!-- 푸터 메인 로고 -->
-        <div class="down-hodu-logo">
+        <div class="down-logo">
           <a href="https://yeon-seong.github.io/rending-pages/html/index.html">
-            <img class="top-hodu-logo" src="../icon/logo.png" alt="HODU LOGO" />
+            <img class="down-logo" src="../icon/logo.svg" alt="HODU LOGO" />
           </a>
         </div>
-        <!-- 소셜 미디어 로고 -->
         <div class="social-logo">
-          <img src="../icon/app.png" alt="BENG 로고" />
-          <img src="../icon/app.png" alt="Instagram 로고" />
-          <img src="../icon/app.png" alt="Facebook 로고" />
-          <img src="../icon/app.png" alt="YouTube 로고" />
+          <div class="social-logo-margin">
+            <img src="../icon/blog.svg" alt="BING" />
+          </div>
+          <div class="social-logo-margin">
+            <img src="../icon/instagram.svg" alt="Instagram" />
+          </div>
+          <div class="social-logo-margin">
+            <img src="../icon/facebook.svg" alt="Facebook" />
+          </div>
+          <div class="social-logo-last">
+            <img src="../icon/youtube.svg" alt="YouTube" />
+          </div>
         </div>
       </div>
     </footer>
 
 
-    <!-- JavaScript 불러오기 -->
+    <button type="button" class="top-btn">
+      <img src="../icon/top-btn.svg" alt="화면 상단으로 올라가는 버튼">
+    </button>
+
     <script src="../js/rending.js"></script>
   </body> 
 </html>
