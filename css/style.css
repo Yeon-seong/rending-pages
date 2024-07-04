@@ -297,7 +297,7 @@ footer > .container-box > .social-logo {
   display: flex;
   align-items: center;
 }
-footer > .container-box > .social-logo > div {
+footer > .container-box > .social-logo > li {
   display: flex;
   align-items: center;
   justify-content: center;
