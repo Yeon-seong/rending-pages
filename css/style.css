@@ -42,7 +42,7 @@ header, .main-intro, .downside-cat-img {
   background-color: var(--main-intro-bg-color);
 }
 
-.orange-btn {
+.orange-button {
   background-color: var(--orange-text-color);
   color: #FFF;
   font-size: 16px;
@@ -97,7 +97,7 @@ header .top-nav-list {
   justify-content: space-between;
   width: 214px;
 }
-header .orange-btn {
+header .orange-button {
   margin-left: 40px;
 }
 
@@ -121,7 +121,7 @@ main .main-intro-parag-wrap > .main-intro-text {
   font-size: 16px;
   line-height: 20px;
 }
-main .main-intro-parag-wrap > .orange-btn {
+main .main-intro-parag-wrap > .orange-button {
   margin-top: 40px;
 }
 main .main-intro-img {
@@ -144,7 +144,7 @@ main .main-content > .container-box > .main-content-one > .main-picture-one-wrap
   width: 660px;
   height: 390px;
   border-radius: 30px;
-  background: url(../img/img_4.jpg) no-repeat center;
+  background-image: url(../img/main-hodu-cat.jpg) no-repeat center;
   background-size: 100%;
   object-fit: cover;
 }
@@ -210,7 +210,7 @@ main .main-content .main-content-three > p {
   font-size: 16px;
   line-height: 20px;
 }
-main .main-content .main-content-three > .orange-btn {
+main .main-content .main-content-three > .orange-button {
   margin-left: 52px;
 }
 
@@ -310,10 +310,10 @@ footer > .container-box > .social-logo > .social-logo-margin {
 }
 
 
-#top-btn {
+#top_up_button {
   width: 50px;
   height: 50px;
-  background: url(../img/scroll-top-btn.png) no-repeat center;
+  background: url(../img/scroll_top_up_botton.png) no-repeat center;
   padding: 0;
   background-color: #FFF;
   border: 1px solid #c4c4c4;
@@ -323,7 +323,7 @@ footer > .container-box > .social-logo > .social-logo-margin {
   bottom: 24px;
   z-index: 1;
 }
-#top-btn:hover {
-  background: url(../img/scroll-arrow-up.svg) no-repeat center;
+#top_up_button:hover {
+  background: url(../img/scroll_arrow_up.svg) no-repeat center;
   background-color: #FFF;
 }
