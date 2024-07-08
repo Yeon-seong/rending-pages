@@ -1,13 +1,6 @@
 /* 웹폰트 불러오기 */
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-@font-face {
-  font-family: "SpoqaHanSansNeo-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* 사용자 지정 색상 */
 :root {
@@ -26,6 +19,7 @@ h1, h2, p, a, ul, li, button {
 body {
   position: relative;
   font-family: 'Spoqa Han Sans Neo', 'SpoqaHanSansNeo-Regular' 'sans-serif';
+  background-color: #FFF;
 }
 
 h2 {
@@ -38,7 +32,7 @@ p {
   line-height: 20px;
 }
 
-header, .main-intro, .downside-cat-img {
+header, .main-intro, .downside-cat-image {
   background-color: var(--main-intro-bg-color);
 }
 
@@ -51,7 +45,7 @@ header, .main-intro, .downside-cat-img {
   padding: 15px 30px;
 }
 
-.main-img-shadow {
+.main-image-shadow {
   filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
 }
 .orange-highlight-text {
@@ -107,28 +101,28 @@ main .main-intro .container-box{
   display: flex;
   justify-content: space-between;
 }
-main .main-intro-parag-wrap {
+main .main-intro-parag-wrapper {
   margin-top: 200px;
 }
-main .main-intro-parag-wrap > .main-intro-title {
+main .main-intro-parag-wrapper > .main-intro-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
 }
-main .main-intro-parag-wrap > .main-intro-text {
+main .main-intro-parag-wrapper > .main-intro-text {
   margin-top: 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
-main .main-intro-parag-wrap > .orange-button {
+main .main-intro-parag-wrapper > .orange-button {
   margin-top: 40px;
 }
-main .main-intro-img {
+main .main-intro-image {
   width: 415px;
   height: 890px;
 }
-main .main-intro-img > img {
+main .main-intro-image > img {
   display: block;
 }
 
@@ -140,7 +134,7 @@ main .main-content > .container-box > .main-content-one {
   align-items: center;
   padding-top: 80px;
 }
-main .main-content > .container-box > .main-content-one > .main-picture-one-wrap > img {
+main .main-content > .container-box > .main-content-one > .main-picture-one-wrapper > img {
   width: 660px;
   height: 390px;
   border-radius: 30px;
@@ -148,15 +142,15 @@ main .main-content > .container-box > .main-content-one > .main-picture-one-wrap
   background-size: 100%;
   object-fit: cover;
 }
-main .main-content > .container-box > .main-content-one .main-content-wrap {
+main .main-content > .container-box > .main-content-one .main-content-wrapper {
   margin-left: 110px;
 }
-main .main-content > .container-box > .main-content-one .main-content-wrap > .main-content-title {
+main .main-content > .container-box > .main-content-one .main-content-wrapper > .main-content-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
 }
-main .main-content > .container-box > .main-content-one .main-content-wrap > .main-content-text {
+main .main-content > .container-box > .main-content-one .main-content-wrapper > .main-content-text {
   margin-top: 33px;
   font-weight: 400;
   font-size: 16px;
@@ -182,12 +176,12 @@ main .main-content .main-content-two > p {
   line-height: 20px;
   text-align: center;
 }
-main .main-content .main-content-two .main-img-wrap {
+main .main-content .main-content-two .main-image-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 88px;
 }
-main .main-content .main-content-two .main-img-wrap > img {
+main .main-content .main-content-two .main-image-wrapper > img {
   width: 378px;
   height: 378px;
   gap: 72px;
@@ -245,7 +239,7 @@ main .main-content .main-content-three > .orange-button {
   line-height: 16px;
   color: #F2E9D8;
 }
-.subscribe-bar .subscribe-email-input-wrap {
+.subscribe-bar .subscribe-email-input-wrapper {
   display: flex;
   align-items: center;
   height: 60px;
@@ -253,19 +247,19 @@ main .main-content .main-content-three > .orange-button {
   border-radius: 60px;
   padding-right: 5px;
 }
-.subscribe-bar .subscribe-email-input-wrap > img {
+.subscribe-bar .subscribe-email-input-wrapper > img {
   padding: 0 28px;
   width: 24px;
   height: 24px;
 }
-.subscribe-bar .subscribe-email-input-wrap > #open-modal {
+.subscribe-bar .subscribe-email-input-wrapper > #open-modal {
   max-width: 1280px;
   height: 100%;
 }
 
 
 /* downside */
-.downside-cat-img > img {
+.downside-cat-image > img {
   width: 100%;
   background: url(../img/img_1.jpg) no-repeat center;
 }
