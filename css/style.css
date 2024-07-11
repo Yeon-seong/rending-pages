@@ -151,7 +151,7 @@ main .main_content > .container_box > .main_content_one > .main_picture_one_wrap
   width: 660px;
   height: 390px;
   border-radius: 30px;
-  background-image: url(../img/main-hodu-cat.jpg) no-repeat center;
+  background-image: url(../image/main-hodu-cat.jpg) no-repeat center;
   background-size: 100%;
   object-fit: cover;
 }
@@ -274,7 +274,7 @@ main .main_content .main_content_three > .orange_button {
 /* downside */
 .downside_cat_image > img {
   width: 100%;
-  background: url(../img/img_1.jpg) no-repeat center;
+  background: url(../image/img_1.jpg) no-repeat center;
 }
 
 
@@ -320,7 +320,7 @@ footer > .container_box > .social_logo_container > .social_logo_margin {
 .top_up_button {
   width: 50px;
   height: 50px;
-  background: url(../img/scroll_top_up_botton.png) no-repeat center;
+  background: url(../image/scroll_top_up_botton.png) no-repeat center;
   padding: 0;
   background-color: #FFF;
   border: 1px solid #c4c4c4;
@@ -331,6 +331,6 @@ footer > .container_box > .social_logo_container > .social_logo_margin {
   z-index: 1;
 }
 .top_up_button:hover {
-  background: url(../img/scroll_arrow_up.svg) no-repeat center;
+  background: url(../image/scroll_arrow_up.svg) no-repeat center;
   background-color: #FFF;
 }
