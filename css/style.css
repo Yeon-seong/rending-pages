@@ -10,16 +10,28 @@
   --gray_color: #767676;
   --darkblue_color: #263140;
 }
-
-h1, h2, p, a, ul, li, button {
-  word-break: keep-all;
-  overflow-wrap: break-word;
-}
-
 body {
   position: relative;
   font-family: 'Spoqa Han Sans Neo', 'SpoqaHanSansNeo-Regular' 'sans-serif';
   background-color: #FFF;
+}
+.screen_reader_only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
+}
+
+
+
+h1, h2, p, a, ul, li, button {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 h2 {
